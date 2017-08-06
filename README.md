@@ -370,7 +370,7 @@ Integration tests and a sandbox environment
 
 If you want to write tests that read from and write to the file system,
 you can use the `Sandbox` struct from
-[`unit_threaded.integration`](source/unit_threaded/integration) like so:
+[`unit_threaded.integration`](source/unit_threaded/integration.d) like so:
 
 ```d
 with(immutable Sandbox()) {
